@@ -13,15 +13,18 @@
 # from rasa_sdk.executor import CollectingDispatcher
 
 
-# class ActionHelloWorld(Action):
+class ActionHelloWorld(Action):
 
-#     def name(self) -> Text:
-#         return "action_hello_world"
+    def name(self) -> Text:
+        return "action_greet"
 
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-#         dispatcher.utter_message("Hello World!")
+        dispatcher.utter_message("Hi, how can i help?")
 
-#         return []
+        return []
+
+# slotSet, Image, display
+
