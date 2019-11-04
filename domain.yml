@@ -14,7 +14,6 @@ actions:
 - utter_happy
 - utter_goodbye
 - utter_iamabot
-- action_hello_world
 
 templates:
   utter_greet:

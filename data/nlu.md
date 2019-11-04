@@ -1,4 +1,4 @@
-## intent: chitchat/greet
+## intent: chitchat_greet
 - hey
 - hello
 - hi
@@ -6,25 +6,25 @@
 - good evening
 - hey there
 
-## intent: chitchat/goodbye
+## intent: chitchat_goodbye
 - bye
 - goodbye
 - see you around
 - see you later
 
-## intent: chitchat/bot_challenge
+## intent: chitchat_bot_challenge
 - are you a bot?
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
 
-## intent: response/affirm
+## intent: response_affirm
 - yes
 - indeed
 - of course
 - that sounds good
 
-## intent: response/deny
+## intent: response_deny
 - no
 - never
 - I don't think so
@@ -32,7 +32,7 @@
 - no way
 - not really
 
-## intent: request/hr
+## intent: request_hr
 - leave request
 - work from home
 - out of office
@@ -41,21 +41,21 @@
 - leave
 - i'd like to take a leave from xx[date] to yy[date]
 
-## intent: request/it
+## intent: request_it
 - ticket
 
-## intent: request/facilities
+## intent: request_facilities
 - laptop alotment
 
-## intent: request/learningdev
+## intent: request_learningdev
 - courses
 - enablement
 - certification
 
-## intent: request/operations
+## intent: request_operations
 - resource movement
 
-## intent: policies/hr
+## intent: policies_hr
 - Employee orientation
 - employee onboarding
 - employee induction
@@ -66,14 +66,14 @@
 - official dress code
 - probation policy
 
-## intent: policies/it
+## intent: policies_it
 - admin rights policy
 
-## intent: policies/learningdev
+## intent: policies_learningdev
 - certification reimbursment
 
-## intent: policies/facilities
+## intent: policies_facilities
 - desk allotment policy
 
-## intent: policies/operation
+## intent: policies_operation
 - misc

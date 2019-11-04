@@ -1,12 +1,12 @@
 ## happy path
 * greet
-  - action_hello_world
+  - utter_greet
 * mood_great
   - utter_happy
 
 ## sad path 1
 * greet
-  - action_hello_world
+  - utter_greet
 * mood_unhappy
   - utter_cheer_up
   - utter_did_that_help
@@ -15,7 +15,7 @@
 
 ## sad path 2
 * greet
-  - action_hello_world
+  - utter_greet
 * mood_unhappy
   - utter_cheer_up
   - utter_did_that_help
