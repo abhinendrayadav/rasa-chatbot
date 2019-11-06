@@ -1,5 +1,4 @@
-#Pro.V.A.
-![alt text](.\images\Mascot_New.png)
+# Pro.V.A.
 
 ## Create a Virtual Environment
 - Create a new virtual environment by choosing a Python interpreter and making a .\venv directory to hold it:
