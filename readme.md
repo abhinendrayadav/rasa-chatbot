@@ -1,4 +1,4 @@
-##Cheat Sheet
+## Cheat Sheet
 
 rasa init	Creates a new project with example training data, actions, and config files.
 rasa train	Trains a model using your NLU data and stories, saves trained model in ./models.
