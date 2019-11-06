@@ -1,8 +1,8 @@
 ## Cheat Sheet
 
-- | rasa init	| Creates a new project with example training data, actions, and config files.
-- rasa train	Trains a model using your NLU data and stories, saves trained model in ./models.
-- rasa interactive	Starts an interactive learning session to create new training data by chatting.
+| rasa init	| Creates a new project with example training data, actions, and config files.
+| rasa train | Trains a model using your NLU data and stories, saves trained model in ./models.
+| rasa interactive | Starts an interactive learning session to create new training data by chatting.
 - rasa shell	Loads your trained model and lets you talk to your assistant on the command line.
 - rasa run	Starts a Rasa server with your trained model. See the Running the Server docs for details.
 - rasa run actions	Starts an action server using the Rasa SDK.
