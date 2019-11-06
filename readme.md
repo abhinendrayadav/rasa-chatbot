@@ -3,10 +3,14 @@
 ## Create a Virtual Environment
 - Create a new virtual environment by choosing a Python interpreter and making a .\venv directory to hold it:
 
-```C:\> python -m venv --system-site-packages ./venv```
+```
+C:\> python -m venv --system-site-packages ./venv
+```
 - Activate the virtual environment:
 
-```C:\> .\venv\Scripts\activate```
+```
+C:\> .\venv\Scripts\activate
+```
 
 
 ## Cheat Sheet
