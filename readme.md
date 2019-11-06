@@ -1,7 +1,10 @@
-## Run on Virtual Environment
+#Pro.V.A.
+![alt text](C:\Users\ayadav\Downloads\Mascot_New)
+
+## Create a Virtual Environment
 - Create a new virtual environment by choosing a Python interpreter and making a .\venv directory to hold it:
 
-```C:\> python3 -m venv --system-site-packages ./venv```
+```C:\> python -m venv --system-site-packages ./venv```
 - Activate the virtual environment:
 
 ```C:\> .\venv\Scripts\activate```
