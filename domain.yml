@@ -15,21 +15,9 @@ intents:
 - knowledge_policy_LearningDev
 - knowledge_policy_Facilities
 - knowledge_policy_operations
-
 entities:
-  - timings
-  - dress_code
-
-actions:
-- utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
-- utter_goodbye
-- utter_iamabot
-- utter_how_can_i_help
-- utter_official_timings
-
+- timings
+- dress_code
 templates:
   utter_greet:
   - text: Hey hooman! How are you?
@@ -49,4 +37,12 @@ templates:
   - text: The official office timings are 0900 to 1800 from Monday till Friday.
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
-
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_how_can_i_help
+- utter_official_timings
