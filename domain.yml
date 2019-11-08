@@ -1,26 +1,35 @@
 intents:
-- greet
-- goodbye
-- affirm
-- deny
-- mood_great
-- mood_unhappy
-- bot_challenge
-- chitchat_greet
-- policies_hr
-- request_operations
-- response_deny
-- policies_operation
-- request_learningdev
-- chitchat_goodbye
-- policies_facilities
-- chitchat_bot_challenge
-- request_facilities
-- request_hr
-- policies_it
-- request_it
-- policies_learningdev
-- response_affirm
+- dialog_greet
+- dialog_goodbye
+- dialog_thanks
+- dialog_bot_challenge
+- dialog_affirm
+- dialog_deny
+- action_HR
+- action_IT
+- action_Facilities
+- action_LearningDev
+- action_Operations
+- knowledge_policy_HR
+- knowledge_policy_IT
+- knowledge_policy_LearningDev
+- knowledge_policy_Facilities
+- knowledge_policy_operations
+
+entities:
+  - timings
+  - dress_code
+
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_how_can_i_help
+- utter_official_timings
+
 templates:
   utter_greet:
   - text: Hey hooman! How are you?
@@ -33,12 +42,11 @@ templates:
   - text: Great, carry on!
   utter_goodbye:
   - text: Bye
+  utter_how_can_i_help:
+  - text: Hi, I am ProVA. I can help you with Prolifics Policies.
+  - text: Hello, My name is ProVA. How can i help today?
+  utter_official_timings:
+  - text: The official office timings are 0900 to 1800 from Monday till Friday.
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
-actions:
-- utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
-- utter_goodbye
-- utter_iamabot
+

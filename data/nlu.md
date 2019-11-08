@@ -1,4 +1,4 @@
-## intent: chitchat_greet
+## intent: dialog_greet
 - hey
 - hello
 - hi
@@ -6,25 +6,30 @@
 - good evening
 - hey there
 
-## intent: chitchat_goodbye
+## intent: dialog_goodbye
 - bye
 - goodbye
 - see you around
 - see you later
 
-## intent: chitchat_bot_challenge
+## intent: dialog_thanks
+- thank you
+- sure
+- thanks
+
+## intent: dialog_bot_challenge
 - are you a bot?
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
 
-## intent: response_affirm
+## intent: dialog_affirm
 - yes
 - indeed
 - of course
 - that sounds good
 
-## intent: response_deny
+## intent: dialog_deny
 - no
 - never
 - I don't think so
@@ -32,48 +37,48 @@
 - no way
 - not really
 
-## intent: request_hr
+## intent: action_HR
 - leave request
 - work from home
 - out of office
 - wfh
 - ooo
 - leave
-- i'd like to take a leave from xx[date] to yy[date]
+- i'd like to take a leave
 
-## intent: request_it
+## intent: action_IT
 - ticket
 
-## intent: request_facilities
+## intent: action_Facilities
 - laptop alotment
 
-## intent: request_learningdev
+## intent: action_LearningDev
 - courses
 - enablement
 - certification
 
-## intent: request_operations
+## intent: action_Operations
 - resource movement
 
-## intent: policies_hr
+## intent: knowledge_policy_HR
 - Employee orientation
 - employee onboarding
 - employee induction
 - BGV policy
 - Personal records
 - personal records
-- official timings
-- official dress code
+- [official timings](timings)
+- [official dress code](dress_code)
 - probation policy
 
-## intent: policies_it
+## intent: knowledge_policy_IT
 - admin rights policy
 
-## intent: policies_learningdev
+## intent: knowledge_policy_LearningDev
 - certification reimbursment
 
-## intent: policies_facilities
+## intent: knowledge_policy_Facilities
 - desk allotment policy
 
-## intent: policies_operation
+## intent: knowledge_policy_operations
 - misc

@@ -1,31 +1,8 @@
-## happy path
-* chitchat_greet
-  - utter_greet
-* mood_great
-  - utter_happy
-
-## sad path 1
-* chitchat_greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm
-  - utter_happy
-
-## sad path 2
-* chitchat_greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
+## search policy happy path
+* dialog_greet
+  - utter_how_can_i_help
+* knowledge_policy_HR{"timings":"official timings"}
+  - utter_official_timings 
+* dialog_thanks
   - utter_goodbye
 
-## say goodbye
-* goodbye
-  - utter_goodbye
-
-## bot challenge
-* bot_challenge
-  - utter_iamabot

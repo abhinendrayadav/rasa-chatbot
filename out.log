@@ -87,3 +87,228 @@ KeyboardInterrupt
 2019-11-06 09:08:34,733 [ERROR]  Task was destroyed but it is pending!
 task: <Task pending coro=<AsyncServer._service_task() running at c:\users\abhinendra\appdata\local\programs\python\python37\lib\site-packages\engineio\asyncio_server.py:456> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x0000017E546E4C78>()]>>
 2019-11-06 09:08:34,749 [INFO ]  event loop is closed, exiting service task
+2019-11-07 09:22:37,083 [INFO ]  Server initialized for sanic.
+2019-11-07 09:22:37,087 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-11-07 09:22:42,915 [INFO ]  Entry Point [tensor2tensor.envs.tic_tac_toe_env:TicTacToeEnv] registered with id [T2TEnv-TicTacToeEnv-v0]
+2019-11-07 09:22:49,835 [INFO ]  4b22cfa409c6463c830593e5185c184d: Sending packet OPEN data {'sid': '4b22cfa409c6463c830593e5185c184d', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:22:49,835 [INFO ]  4b22cfa409c6463c830593e5185c184d: Sending packet MESSAGE data 0
+2019-11-07 09:22:55,532 [INFO ]  0d15a94be9bf4a0fafc399fe1c291fa4: Sending packet OPEN data {'sid': '0d15a94be9bf4a0fafc399fe1c291fa4', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:22:55,536 [INFO ]  0d15a94be9bf4a0fafc399fe1c291fa4: Sending packet MESSAGE data 0
+2019-11-07 09:23:02,836 [INFO ]  4560c2bfbeee431eae518c1cf7e4f69e: Sending packet OPEN data {'sid': '4560c2bfbeee431eae518c1cf7e4f69e', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:23:02,840 [INFO ]  4560c2bfbeee431eae518c1cf7e4f69e: Sending packet MESSAGE data 0
+2019-11-07 09:23:08,530 [INFO ]  48e5fa85db9a408196280e162254585b: Sending packet OPEN data {'sid': '48e5fa85db9a408196280e162254585b', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:23:08,538 [INFO ]  48e5fa85db9a408196280e162254585b: Sending packet MESSAGE data 0
+2019-11-07 09:23:14,831 [INFO ]  dd6aea14dc0e495aba0de233da763925: Sending packet OPEN data {'sid': 'dd6aea14dc0e495aba0de233da763925', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:23:14,834 [INFO ]  dd6aea14dc0e495aba0de233da763925: Sending packet MESSAGE data 0
+2019-11-07 09:23:20,526 [INFO ]  cb6a672bafaf4f8db78ef58e55e6c7d8: Sending packet OPEN data {'sid': 'cb6a672bafaf4f8db78ef58e55e6c7d8', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:23:20,534 [INFO ]  cb6a672bafaf4f8db78ef58e55e6c7d8: Sending packet MESSAGE data 0
+2019-11-07 09:23:26,832 [INFO ]  c7882261454743c9a24cff8a15884794: Sending packet OPEN data {'sid': 'c7882261454743c9a24cff8a15884794', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:23:26,836 [INFO ]  c7882261454743c9a24cff8a15884794: Sending packet MESSAGE data 0
+2019-11-07 09:23:32,527 [INFO ]  596c7106af024bbcb413fdaea2c00ab6: Sending packet OPEN data {'sid': '596c7106af024bbcb413fdaea2c00ab6', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:23:32,535 [INFO ]  596c7106af024bbcb413fdaea2c00ab6: Sending packet MESSAGE data 0
+2019-11-07 09:23:38,837 [INFO ]  776feadcf48b4ee7a668a2556ffa39a7: Sending packet OPEN data {'sid': '776feadcf48b4ee7a668a2556ffa39a7', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:23:38,841 [INFO ]  776feadcf48b4ee7a668a2556ffa39a7: Sending packet MESSAGE data 0
+2019-11-07 09:23:44,527 [INFO ]  64d299eb4f2f41c4b9c8a77126b253d8: Sending packet OPEN data {'sid': '64d299eb4f2f41c4b9c8a77126b253d8', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:23:44,531 [INFO ]  64d299eb4f2f41c4b9c8a77126b253d8: Sending packet MESSAGE data 0
+2019-11-07 09:23:49,853 [INFO ]  4b22cfa409c6463c830593e5185c184d: Client is gone, closing socket
+2019-11-07 09:23:49,857 [INFO ]  4b22cfa409c6463c830593e5185c184d: Client is gone, closing socket
+2019-11-07 09:23:50,834 [INFO ]  b9a0c6a7fa9548e08b69c889e2e7777e: Sending packet OPEN data {'sid': 'b9a0c6a7fa9548e08b69c889e2e7777e', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:23:50,837 [INFO ]  b9a0c6a7fa9548e08b69c889e2e7777e: Sending packet MESSAGE data 0
+2019-11-07 09:23:53,016 [INFO ]  fbd9854095aa4947b1a39d294565293d: Sending packet OPEN data {'sid': 'fbd9854095aa4947b1a39d294565293d', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:23:53,016 [INFO ]  fbd9854095aa4947b1a39d294565293d: Sending packet MESSAGE data 0
+2019-11-07 09:23:53,805 [INFO ]  f4321a434e1f49948aa0828883eb6aad: Sending packet OPEN data {'sid': 'f4321a434e1f49948aa0828883eb6aad', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:23:53,809 [INFO ]  f4321a434e1f49948aa0828883eb6aad: Sending packet MESSAGE data 0
+2019-11-07 09:23:54,045 [INFO ]  340aaa2372f643499226543f8bc41eab: Sending packet OPEN data {'sid': '340aaa2372f643499226543f8bc41eab', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:23:54,049 [INFO ]  340aaa2372f643499226543f8bc41eab: Sending packet MESSAGE data 0
+2019-11-07 09:23:54,321 [INFO ]  6d9c8cb0146c40c99d52454813ebfc8b: Sending packet OPEN data {'sid': '6d9c8cb0146c40c99d52454813ebfc8b', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:23:54,321 [INFO ]  6d9c8cb0146c40c99d52454813ebfc8b: Sending packet MESSAGE data 0
+2019-11-07 09:23:55,894 [INFO ]  0d15a94be9bf4a0fafc399fe1c291fa4: Client is gone, closing socket
+2019-11-07 09:23:55,898 [INFO ]  0d15a94be9bf4a0fafc399fe1c291fa4: Client is gone, closing socket
+2019-11-07 09:24:01,930 [INFO ]  4560c2bfbeee431eae518c1cf7e4f69e: Client is gone, closing socket
+2019-11-07 09:24:01,934 [INFO ]  4560c2bfbeee431eae518c1cf7e4f69e: Client is gone, closing socket
+2019-11-07 09:24:07,961 [INFO ]  48e5fa85db9a408196280e162254585b: Client is gone, closing socket
+2019-11-07 09:24:07,961 [INFO ]  48e5fa85db9a408196280e162254585b: Client is gone, closing socket
+2019-11-07 09:24:12,041 [INFO ]  a19bbe556e824d2a809fdcaee1df238a: Sending packet OPEN data {'sid': 'a19bbe556e824d2a809fdcaee1df238a', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:24:12,045 [INFO ]  a19bbe556e824d2a809fdcaee1df238a: Sending packet MESSAGE data 0
+2019-11-07 09:24:13,315 [INFO ]  a5c17797ed7e415788958810606ae3ee: Sending packet OPEN data {'sid': 'a5c17797ed7e415788958810606ae3ee', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:24:13,319 [INFO ]  a5c17797ed7e415788958810606ae3ee: Sending packet MESSAGE data 0
+2019-11-07 09:24:13,962 [INFO ]  dd6aea14dc0e495aba0de233da763925: Client is gone, closing socket
+2019-11-07 09:24:13,966 [INFO ]  dd6aea14dc0e495aba0de233da763925: Client is gone, closing socket
+2019-11-07 09:24:14,712 [INFO ]  c765fdf9f897414b80866d0af488cd1d: Sending packet OPEN data {'sid': 'c765fdf9f897414b80866d0af488cd1d', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:24:14,716 [INFO ]  c765fdf9f897414b80866d0af488cd1d: Sending packet MESSAGE data 0
+2019-11-07 09:24:19,354 [INFO ]  6c1f85bf0e994a3e8b5d59d06f6b78ff: Sending packet OPEN data {'sid': '6c1f85bf0e994a3e8b5d59d06f6b78ff', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:24:19,362 [INFO ]  6c1f85bf0e994a3e8b5d59d06f6b78ff: Sending packet MESSAGE data 0
+2019-11-07 09:24:19,970 [INFO ]  cb6a672bafaf4f8db78ef58e55e6c7d8: Client is gone, closing socket
+2019-11-07 09:24:19,974 [INFO ]  cb6a672bafaf4f8db78ef58e55e6c7d8: Client is gone, closing socket
+2019-11-07 09:24:24,711 [INFO ]  89e2f27986a749b4b55f61cbb50046f9: Sending packet OPEN data {'sid': '89e2f27986a749b4b55f61cbb50046f9', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:24:24,715 [INFO ]  89e2f27986a749b4b55f61cbb50046f9: Sending packet MESSAGE data 0
+2019-11-07 09:24:25,981 [INFO ]  c7882261454743c9a24cff8a15884794: Client is gone, closing socket
+2019-11-07 09:24:26,009 [INFO ]  c7882261454743c9a24cff8a15884794: Client is gone, closing socket
+2019-11-07 09:24:29,751 [INFO ]  6a0c3655c10042538eac58da3e55bca0: Sending packet OPEN data {'sid': '6a0c3655c10042538eac58da3e55bca0', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:24:29,759 [INFO ]  6a0c3655c10042538eac58da3e55bca0: Sending packet MESSAGE data 0
+2019-11-07 09:24:32,023 [INFO ]  596c7106af024bbcb413fdaea2c00ab6: Client is gone, closing socket
+2019-11-07 09:24:32,027 [INFO ]  596c7106af024bbcb413fdaea2c00ab6: Client is gone, closing socket
+2019-11-07 09:24:35,104 [INFO ]  ec79cd7292ea40f688d5434450386158: Sending packet OPEN data {'sid': 'ec79cd7292ea40f688d5434450386158', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:24:35,112 [INFO ]  ec79cd7292ea40f688d5434450386158: Sending packet MESSAGE data 0
+2019-11-07 09:24:38,061 [INFO ]  776feadcf48b4ee7a668a2556ffa39a7: Client is gone, closing socket
+2019-11-07 09:24:38,061 [INFO ]  776feadcf48b4ee7a668a2556ffa39a7: Client is gone, closing socket
+2019-11-07 09:24:40,153 [INFO ]  86e45f4252a24014b561d3aa2a4d964c: Sending packet OPEN data {'sid': '86e45f4252a24014b561d3aa2a4d964c', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:24:40,157 [INFO ]  86e45f4252a24014b561d3aa2a4d964c: Sending packet MESSAGE data 0
+2019-11-07 09:24:44,058 [INFO ]  64d299eb4f2f41c4b9c8a77126b253d8: Client is gone, closing socket
+2019-11-07 09:24:44,058 [INFO ]  64d299eb4f2f41c4b9c8a77126b253d8: Client is gone, closing socket
+2019-11-07 09:24:45,483 [INFO ]  3fd6bf7bb6f84fabab73b3807793ef8b: Sending packet OPEN data {'sid': '3fd6bf7bb6f84fabab73b3807793ef8b', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:24:45,507 [INFO ]  3fd6bf7bb6f84fabab73b3807793ef8b: Sending packet MESSAGE data 0
+2019-11-07 09:24:50,522 [INFO ]  4038d51d79754bf8925007d3dec531df: Sending packet OPEN data {'sid': '4038d51d79754bf8925007d3dec531df', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:24:50,526 [INFO ]  4038d51d79754bf8925007d3dec531df: Sending packet MESSAGE data 0
+2019-11-07 09:24:56,832 [INFO ]  c1a280ec36ab416d964437f7cc8cdebf: Sending packet OPEN data {'sid': 'c1a280ec36ab416d964437f7cc8cdebf', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:24:56,836 [INFO ]  c1a280ec36ab416d964437f7cc8cdebf: Sending packet MESSAGE data 0
+2019-11-07 09:25:02,523 [INFO ]  2983a6164ac34e2ab8ef90594781d2f3: Sending packet OPEN data {'sid': '2983a6164ac34e2ab8ef90594781d2f3', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:25:02,527 [INFO ]  2983a6164ac34e2ab8ef90594781d2f3: Sending packet MESSAGE data 0
+2019-11-07 09:25:08,832 [INFO ]  c5e9553ef6464014994e43b580204fa9: Sending packet OPEN data {'sid': 'c5e9553ef6464014994e43b580204fa9', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:25:08,840 [INFO ]  c5e9553ef6464014994e43b580204fa9: Sending packet MESSAGE data 0
+2019-11-07 09:25:14,526 [INFO ]  a76b6193a42d4afcbad3f4e16704afe8: Sending packet OPEN data {'sid': 'a76b6193a42d4afcbad3f4e16704afe8', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:25:14,534 [INFO ]  a76b6193a42d4afcbad3f4e16704afe8: Sending packet MESSAGE data 0
+2019-11-07 09:25:15,116 [INFO ]  b9a0c6a7fa9548e08b69c889e2e7777e: Client is gone, closing socket
+2019-11-07 09:25:15,120 [INFO ]  b9a0c6a7fa9548e08b69c889e2e7777e: Client is gone, closing socket
+2019-11-07 09:25:17,626 [INFO ]  fbd9854095aa4947b1a39d294565293d: Client is gone, closing socket
+2019-11-07 09:25:17,626 [INFO ]  fbd9854095aa4947b1a39d294565293d: Client is gone, closing socket
+2019-11-07 09:25:20,135 [INFO ]  f4321a434e1f49948aa0828883eb6aad: Client is gone, closing socket
+2019-11-07 09:25:20,138 [INFO ]  f4321a434e1f49948aa0828883eb6aad: Client is gone, closing socket
+2019-11-07 09:25:20,835 [INFO ]  682ebe9d757746379b9c981de43a4947: Sending packet OPEN data {'sid': '682ebe9d757746379b9c981de43a4947', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:25:20,839 [INFO ]  682ebe9d757746379b9c981de43a4947: Sending packet MESSAGE data 0
+2019-11-07 09:25:22,661 [INFO ]  340aaa2372f643499226543f8bc41eab: Client is gone, closing socket
+2019-11-07 09:25:22,661 [INFO ]  340aaa2372f643499226543f8bc41eab: Client is gone, closing socket
+2019-11-07 09:25:25,185 [INFO ]  6d9c8cb0146c40c99d52454813ebfc8b: Client is gone, closing socket
+2019-11-07 09:25:25,185 [INFO ]  6d9c8cb0146c40c99d52454813ebfc8b: Client is gone, closing socket
+2019-11-07 09:25:26,523 [INFO ]  fb56734d0ddc468cb7f612eadb62f392: Sending packet OPEN data {'sid': 'fb56734d0ddc468cb7f612eadb62f392', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:25:26,527 [INFO ]  fb56734d0ddc468cb7f612eadb62f392: Sending packet MESSAGE data 0
+2019-11-07 09:25:27,701 [INFO ]  a19bbe556e824d2a809fdcaee1df238a: Client is gone, closing socket
+2019-11-07 09:25:27,701 [INFO ]  a19bbe556e824d2a809fdcaee1df238a: Client is gone, closing socket
+2019-11-07 09:25:30,223 [INFO ]  a5c17797ed7e415788958810606ae3ee: Client is gone, closing socket
+2019-11-07 09:25:30,259 [INFO ]  a5c17797ed7e415788958810606ae3ee: Client is gone, closing socket
+2019-11-07 09:25:32,766 [INFO ]  c765fdf9f897414b80866d0af488cd1d: Client is gone, closing socket
+2019-11-07 09:25:32,766 [INFO ]  c765fdf9f897414b80866d0af488cd1d: Client is gone, closing socket
+2019-11-07 09:25:32,830 [INFO ]  a819b7173e0a4be1ab5c239327c333fa: Sending packet OPEN data {'sid': 'a819b7173e0a4be1ab5c239327c333fa', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:25:32,834 [INFO ]  a819b7173e0a4be1ab5c239327c333fa: Sending packet MESSAGE data 0
+2019-11-07 09:25:35,269 [INFO ]  6c1f85bf0e994a3e8b5d59d06f6b78ff: Client is gone, closing socket
+2019-11-07 09:25:35,269 [INFO ]  6c1f85bf0e994a3e8b5d59d06f6b78ff: Client is gone, closing socket
+2019-11-07 09:25:37,788 [INFO ]  89e2f27986a749b4b55f61cbb50046f9: Client is gone, closing socket
+2019-11-07 09:25:37,792 [INFO ]  89e2f27986a749b4b55f61cbb50046f9: Client is gone, closing socket
+2019-11-07 09:25:38,525 [INFO ]  a5a114f8524a42de92775c07fbc21a1d: Sending packet OPEN data {'sid': 'a5a114f8524a42de92775c07fbc21a1d', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:25:38,529 [INFO ]  a5a114f8524a42de92775c07fbc21a1d: Sending packet MESSAGE data 0
+2019-11-07 09:25:40,317 [INFO ]  6a0c3655c10042538eac58da3e55bca0: Client is gone, closing socket
+2019-11-07 09:25:40,317 [INFO ]  6a0c3655c10042538eac58da3e55bca0: Client is gone, closing socket
+2019-11-07 09:25:42,835 [INFO ]  ec79cd7292ea40f688d5434450386158: Client is gone, closing socket
+2019-11-07 09:25:42,835 [INFO ]  ec79cd7292ea40f688d5434450386158: Client is gone, closing socket
+2019-11-07 09:25:44,828 [INFO ]  e7c63a6ae0544df08769c8d2c0d1db06: Sending packet OPEN data {'sid': 'e7c63a6ae0544df08769c8d2c0d1db06', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:25:44,836 [INFO ]  e7c63a6ae0544df08769c8d2c0d1db06: Sending packet MESSAGE data 0
+2019-11-07 09:25:45,367 [INFO ]  86e45f4252a24014b561d3aa2a4d964c: Client is gone, closing socket
+2019-11-07 09:25:45,367 [INFO ]  86e45f4252a24014b561d3aa2a4d964c: Client is gone, closing socket
+2019-11-07 09:25:47,890 [INFO ]  3fd6bf7bb6f84fabab73b3807793ef8b: Client is gone, closing socket
+2019-11-07 09:25:47,921 [INFO ]  3fd6bf7bb6f84fabab73b3807793ef8b: Client is gone, closing socket
+2019-11-07 09:25:51,523 [INFO ]  c18f6605bd85432e8866f5876f3af1db: Sending packet OPEN data {'sid': 'c18f6605bd85432e8866f5876f3af1db', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:25:51,535 [INFO ]  c18f6605bd85432e8866f5876f3af1db: Sending packet MESSAGE data 0
+2019-11-07 09:25:57,830 [INFO ]  a3315b3c46554f77bebab49a86930e04: Sending packet OPEN data {'sid': 'a3315b3c46554f77bebab49a86930e04', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:25:57,834 [INFO ]  a3315b3c46554f77bebab49a86930e04: Sending packet MESSAGE data 0
+2019-11-07 09:26:03,525 [INFO ]  9819ba1faa4244a49c272f51a765d987: Sending packet OPEN data {'sid': '9819ba1faa4244a49c272f51a765d987', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:26:03,573 [INFO ]  9819ba1faa4244a49c272f51a765d987: Sending packet MESSAGE data 0
+2019-11-07 09:26:10,829 [INFO ]  2f8c0899363a4f7087ff2017010f0171: Sending packet OPEN data {'sid': '2f8c0899363a4f7087ff2017010f0171', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:26:10,833 [INFO ]  2f8c0899363a4f7087ff2017010f0171: Sending packet MESSAGE data 0
+2019-11-07 09:26:16,525 [INFO ]  46a1a427d9044232ab6d378d19a29622: Sending packet OPEN data {'sid': '46a1a427d9044232ab6d378d19a29622', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:26:16,529 [INFO ]  46a1a427d9044232ab6d378d19a29622: Sending packet MESSAGE data 0
+2019-11-07 09:26:22,831 [INFO ]  d0b9271006d346e2be0a92986a6c0051: Sending packet OPEN data {'sid': 'd0b9271006d346e2be0a92986a6c0051', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:26:22,835 [INFO ]  d0b9271006d346e2be0a92986a6c0051: Sending packet MESSAGE data 0
+2019-11-07 09:26:28,524 [INFO ]  ef5818fd2984465c9189278c60e247db: Sending packet OPEN data {'sid': 'ef5818fd2984465c9189278c60e247db', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:26:28,528 [INFO ]  ef5818fd2984465c9189278c60e247db: Sending packet MESSAGE data 0
+2019-11-07 09:26:32,828 [INFO ]  4038d51d79754bf8925007d3dec531df: Client is gone, closing socket
+2019-11-07 09:26:32,832 [INFO ]  4038d51d79754bf8925007d3dec531df: Client is gone, closing socket
+2019-11-07 09:26:34,610 [INFO ]  c1a280ec36ab416d964437f7cc8cdebf: Client is gone, closing socket
+2019-11-07 09:26:34,614 [INFO ]  c1a280ec36ab416d964437f7cc8cdebf: Client is gone, closing socket
+2019-11-07 09:26:34,834 [INFO ]  db6adccfcdfb4069aaa223716422d72e: Sending packet OPEN data {'sid': 'db6adccfcdfb4069aaa223716422d72e', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:26:34,838 [INFO ]  db6adccfcdfb4069aaa223716422d72e: Sending packet MESSAGE data 0
+2019-11-07 09:26:36,396 [INFO ]  2983a6164ac34e2ab8ef90594781d2f3: Client is gone, closing socket
+2019-11-07 09:26:36,400 [INFO ]  2983a6164ac34e2ab8ef90594781d2f3: Client is gone, closing socket
+2019-11-07 09:26:38,184 [INFO ]  c5e9553ef6464014994e43b580204fa9: Client is gone, closing socket
+2019-11-07 09:26:38,188 [INFO ]  c5e9553ef6464014994e43b580204fa9: Client is gone, closing socket
+2019-11-07 09:26:39,976 [INFO ]  a76b6193a42d4afcbad3f4e16704afe8: Client is gone, closing socket
+2019-11-07 09:26:39,979 [INFO ]  a76b6193a42d4afcbad3f4e16704afe8: Client is gone, closing socket
+2019-11-07 09:26:40,531 [INFO ]  bd5775621c20461ab8452c2db81e1c4f: Sending packet OPEN data {'sid': 'bd5775621c20461ab8452c2db81e1c4f', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:26:40,531 [INFO ]  bd5775621c20461ab8452c2db81e1c4f: Sending packet MESSAGE data 0
+2019-11-07 09:26:41,749 [INFO ]  682ebe9d757746379b9c981de43a4947: Client is gone, closing socket
+2019-11-07 09:26:41,749 [INFO ]  682ebe9d757746379b9c981de43a4947: Client is gone, closing socket
+2019-11-07 09:26:43,536 [INFO ]  fb56734d0ddc468cb7f612eadb62f392: Client is gone, closing socket
+2019-11-07 09:26:43,536 [INFO ]  fb56734d0ddc468cb7f612eadb62f392: Client is gone, closing socket
+2019-11-07 09:26:45,315 [INFO ]  a819b7173e0a4be1ab5c239327c333fa: Client is gone, closing socket
+2019-11-07 09:26:45,319 [INFO ]  a819b7173e0a4be1ab5c239327c333fa: Client is gone, closing socket
+2019-11-07 09:26:46,832 [INFO ]  247627d2f6cf4762a0ca04352c33dd0f: Sending packet OPEN data {'sid': '247627d2f6cf4762a0ca04352c33dd0f', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:26:46,832 [INFO ]  247627d2f6cf4762a0ca04352c33dd0f: Sending packet MESSAGE data 0
+2019-11-07 09:26:47,083 [INFO ]  a5a114f8524a42de92775c07fbc21a1d: Client is gone, closing socket
+2019-11-07 09:26:47,083 [INFO ]  a5a114f8524a42de92775c07fbc21a1d: Client is gone, closing socket
+2019-11-07 09:26:48,867 [INFO ]  e7c63a6ae0544df08769c8d2c0d1db06: Client is gone, closing socket
+2019-11-07 09:26:48,867 [INFO ]  e7c63a6ae0544df08769c8d2c0d1db06: Client is gone, closing socket
+2019-11-07 09:26:52,524 [INFO ]  a454a64d84554da5afb0dcd6e0bcf0aa: Sending packet OPEN data {'sid': 'a454a64d84554da5afb0dcd6e0bcf0aa', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:26:52,528 [INFO ]  a454a64d84554da5afb0dcd6e0bcf0aa: Sending packet MESSAGE data 0
+2019-11-07 09:26:58,831 [INFO ]  a5e4f4ab222f4326b0988dddb47eef08: Sending packet OPEN data {'sid': 'a5e4f4ab222f4326b0988dddb47eef08', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:26:58,831 [INFO ]  a5e4f4ab222f4326b0988dddb47eef08: Sending packet MESSAGE data 0
+2019-11-07 09:27:05,526 [INFO ]  e0f7df01639d4a0bb98a4d75c5e0e10b: Sending packet OPEN data {'sid': 'e0f7df01639d4a0bb98a4d75c5e0e10b', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:27:05,530 [INFO ]  e0f7df01639d4a0bb98a4d75c5e0e10b: Sending packet MESSAGE data 0
+2019-11-07 09:27:11,828 [INFO ]  59bd1d9b510e43f0b6e886a78e279207: Sending packet OPEN data {'sid': '59bd1d9b510e43f0b6e886a78e279207', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:27:11,828 [INFO ]  59bd1d9b510e43f0b6e886a78e279207: Sending packet MESSAGE data 0
+2019-11-07 09:27:18,525 [INFO ]  2dd3615954a04a709b34418f8e367edf: Sending packet OPEN data {'sid': '2dd3615954a04a709b34418f8e367edf', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:27:18,533 [INFO ]  2dd3615954a04a709b34418f8e367edf: Sending packet MESSAGE data 0
+2019-11-07 09:27:24,834 [INFO ]  3f1ce36729f54651b4183cc2a6acab16: Sending packet OPEN data {'sid': '3f1ce36729f54651b4183cc2a6acab16', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:27:24,838 [INFO ]  3f1ce36729f54651b4183cc2a6acab16: Sending packet MESSAGE data 0
+2019-11-07 09:27:24,850 [INFO ]  14a236453e6e4d1c8f9421eb7eb6c259: Sending packet OPEN data {'sid': '14a236453e6e4d1c8f9421eb7eb6c259', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:27:24,854 [INFO ]  14a236453e6e4d1c8f9421eb7eb6c259: Sending packet MESSAGE data 0
+2019-11-07 09:27:25,541 [INFO ]  96bbf5b04fec42808985654319046b59: Sending packet OPEN data {'sid': '96bbf5b04fec42808985654319046b59', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:27:25,549 [INFO ]  96bbf5b04fec42808985654319046b59: Sending packet MESSAGE data 0
+2019-11-07 09:27:26,976 [INFO ]  ec9a81d57c844d07b9a1e312450aa397: Sending packet OPEN data {'sid': 'ec9a81d57c844d07b9a1e312450aa397', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:27:26,976 [INFO ]  ec9a81d57c844d07b9a1e312450aa397: Sending packet MESSAGE data 0
+2019-11-07 09:27:27,582 [INFO ]  dd823ffb9efb42af9f7002f0330589de: Sending packet OPEN data {'sid': 'dd823ffb9efb42af9f7002f0330589de', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:27:27,586 [INFO ]  dd823ffb9efb42af9f7002f0330589de: Sending packet MESSAGE data 0
+2019-11-07 09:27:27,811 [INFO ]  164011a3eab24683a855e6d7b9345d00: Sending packet OPEN data {'sid': '164011a3eab24683a855e6d7b9345d00', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:27:27,811 [INFO ]  164011a3eab24683a855e6d7b9345d00: Sending packet MESSAGE data 0
+2019-11-07 09:27:28,040 [INFO ]  6cd7a620a9614ac1b604ef64e9802da9: Sending packet OPEN data {'sid': '6cd7a620a9614ac1b604ef64e9802da9', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:27:28,040 [INFO ]  6cd7a620a9614ac1b604ef64e9802da9: Sending packet MESSAGE data 0
+2019-11-07 09:27:28,256 [INFO ]  1ea8021d75a64362aad15b7dce2b58e9: Sending packet OPEN data {'sid': '1ea8021d75a64362aad15b7dce2b58e9', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:27:28,256 [INFO ]  1ea8021d75a64362aad15b7dce2b58e9: Sending packet MESSAGE data 0
+2019-11-07 09:27:29,427 [INFO ]  1af14b89b5864c3c95f7a5b601836142: Sending packet OPEN data {'sid': '1af14b89b5864c3c95f7a5b601836142', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:27:29,431 [INFO ]  1af14b89b5864c3c95f7a5b601836142: Sending packet MESSAGE data 0
+2019-11-07 09:27:31,585 [INFO ]  58fdf8986ec34de7af240728801aa2b1: Sending packet OPEN data {'sid': '58fdf8986ec34de7af240728801aa2b1', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:27:31,588 [INFO ]  58fdf8986ec34de7af240728801aa2b1: Sending packet MESSAGE data 0
+2019-11-07 09:27:36,525 [INFO ]  5ad7bdb5c300495fa6bc12ae43754187: Sending packet OPEN data {'sid': '5ad7bdb5c300495fa6bc12ae43754187', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:27:36,537 [INFO ]  5ad7bdb5c300495fa6bc12ae43754187: Sending packet MESSAGE data 0
+2019-11-07 09:27:37,105 [INFO ]  c18f6605bd85432e8866f5876f3af1db: Client is gone, closing socket
+2019-11-07 09:27:37,109 [INFO ]  c18f6605bd85432e8866f5876f3af1db: Client is gone, closing socket
+2019-11-07 09:27:38,474 [INFO ]  a3315b3c46554f77bebab49a86930e04: Client is gone, closing socket
+2019-11-07 09:27:38,486 [INFO ]  a3315b3c46554f77bebab49a86930e04: Client is gone, closing socket
+2019-11-07 09:27:39,858 [INFO ]  9819ba1faa4244a49c272f51a765d987: Client is gone, closing socket
+2019-11-07 09:27:39,858 [INFO ]  9819ba1faa4244a49c272f51a765d987: Client is gone, closing socket
+2019-11-07 09:27:41,229 [INFO ]  2f8c0899363a4f7087ff2017010f0171: Client is gone, closing socket
+2019-11-07 09:27:41,229 [INFO ]  2f8c0899363a4f7087ff2017010f0171: Client is gone, closing socket
+2019-11-07 09:27:42,592 [INFO ]  46a1a427d9044232ab6d378d19a29622: Client is gone, closing socket
+2019-11-07 09:27:42,596 [INFO ]  46a1a427d9044232ab6d378d19a29622: Client is gone, closing socket
+2019-11-07 09:27:42,828 [INFO ]  f7afa1b786154dc0a7207cfa3338b30f: Sending packet OPEN data {'sid': 'f7afa1b786154dc0a7207cfa3338b30f', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:27:42,828 [INFO ]  f7afa1b786154dc0a7207cfa3338b30f: Sending packet MESSAGE data 0
+2019-11-07 09:27:43,967 [INFO ]  d0b9271006d346e2be0a92986a6c0051: Client is gone, closing socket
+2019-11-07 09:27:43,971 [INFO ]  d0b9271006d346e2be0a92986a6c0051: Client is gone, closing socket
+2019-11-07 09:27:45,342 [INFO ]  ef5818fd2984465c9189278c60e247db: Client is gone, closing socket
+2019-11-07 09:27:45,346 [INFO ]  ef5818fd2984465c9189278c60e247db: Client is gone, closing socket
+2019-11-07 09:27:46,719 [INFO ]  db6adccfcdfb4069aaa223716422d72e: Client is gone, closing socket
+2019-11-07 09:27:46,719 [INFO ]  db6adccfcdfb4069aaa223716422d72e: Client is gone, closing socket
+2019-11-07 09:27:48,090 [INFO ]  bd5775621c20461ab8452c2db81e1c4f: Client is gone, closing socket
+2019-11-07 09:27:48,094 [INFO ]  bd5775621c20461ab8452c2db81e1c4f: Client is gone, closing socket
+2019-11-07 09:27:48,525 [INFO ]  ab7d3c991e61479695d4b3616ac92824: Sending packet OPEN data {'sid': 'ab7d3c991e61479695d4b3616ac92824', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:27:48,529 [INFO ]  ab7d3c991e61479695d4b3616ac92824: Sending packet MESSAGE data 0
+2019-11-07 09:27:49,455 [INFO ]  247627d2f6cf4762a0ca04352c33dd0f: Client is gone, closing socket
+2019-11-07 09:27:49,459 [INFO ]  247627d2f6cf4762a0ca04352c33dd0f: Client is gone, closing socket
+2019-11-07 09:27:55,826 [INFO ]  7c89dbd59e70482789e9bd76de33823a: Sending packet OPEN data {'sid': '7c89dbd59e70482789e9bd76de33823a', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:27:55,833 [INFO ]  7c89dbd59e70482789e9bd76de33823a: Sending packet MESSAGE data 0
+2019-11-07 09:28:01,531 [INFO ]  d891a01ab4d341feb45e3c3c51f2ed14: Sending packet OPEN data {'sid': 'd891a01ab4d341feb45e3c3c51f2ed14', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:28:01,535 [INFO ]  d891a01ab4d341feb45e3c3c51f2ed14: Sending packet MESSAGE data 0
+2019-11-07 09:28:07,831 [INFO ]  a85b71a3f1e645abb9745d9127c74ac8: Sending packet OPEN data {'sid': 'a85b71a3f1e645abb9745d9127c74ac8', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:28:07,839 [INFO ]  a85b71a3f1e645abb9745d9127c74ac8: Sending packet MESSAGE data 0
+2019-11-07 09:28:13,532 [INFO ]  37d6fa2e09164bdfba7efbb96987c3ac: Sending packet OPEN data {'sid': '37d6fa2e09164bdfba7efbb96987c3ac', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 09:28:13,536 [INFO ]  37d6fa2e09164bdfba7efbb96987c3ac: Sending packet MESSAGE data 0
+2019-11-07 21:11:14,868 [INFO ]  54fc04afa6e34fa0ba237d60240f31d2: Sending packet OPEN data {'sid': '54fc04afa6e34fa0ba237d60240f31d2', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2019-11-07 21:11:14,872 [INFO ]  54fc04afa6e34fa0ba237d60240f31d2: Sending packet MESSAGE data 0
