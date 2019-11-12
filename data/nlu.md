@@ -61,13 +61,14 @@
 - resource movement
 
 ## intent: knowledge_policy_HR
-- Employee orientation
-- employee onboarding
-- employee induction
-- BGV policy
-- Personal records
-- personal records
-- probation policy
+- [Employee orientation](policy_hr)
+- [employee onboarding](policy_hr)
+- [employee induction](policy_hr)
+- [BGV policy](policy_hr)
+- [Personal records](policy_hr)
+- [personal records](policy_hr)
+- [probation policy](policy_hr)
+- [official policy](policy_hr)
 
 ## intent: knowledge_policy_IT
 - admin rights policy
@@ -81,5 +82,5 @@
 ## intent: knowledge_policy_operations
 - misc
 
-## lookup: official
+## lookup: policy_hr
 - data/test/lookup_tables/official.txt
