@@ -34,7 +34,9 @@ templates:
   - text: Hi, I am ProVA. I can help you with Prolifics Policies.
   - text: Hello, My name is ProVA. How can i help today?
   utter_official_timings:
-  - text: The official office timings are 0900 to 1800 from Monday till Friday.
+  - text: The official office timings are from 0900 to 1800 starting Monday till Friday.
+  utter_official_dress_code:
+  - text: 
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
 actions:
@@ -46,3 +48,4 @@ actions:
 - utter_iamabot
 - utter_how_can_i_help
 - utter_official_timings
+- utter_official_dress_code

@@ -67,8 +67,6 @@
 - BGV policy
 - Personal records
 - personal records
-- [official timings](timings)
-- [official dress code](dress_code)
 - probation policy
 
 ## intent: knowledge_policy_IT
@@ -82,3 +80,6 @@
 
 ## intent: knowledge_policy_operations
 - misc
+
+## lookup: official
+- data/test/lookup_tables/official.txt
